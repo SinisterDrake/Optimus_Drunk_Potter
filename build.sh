@@ -50,7 +50,7 @@ ls $KERNEL_DIR/out/arch/arm64/boot/Image.gz
 ls $KERNEL_DIR/out/arch/arm64/boot/dtb
 
 #Anykernel 2 time!!
-echo "**** Verifying Anyernel2 Directory ****"
+echo "**** Verifying Anykernel2 Directory ****"
 ls $ANY_KERNEL2_DIR
 echo "**** Removing leftovers ****"
 rm -rf $ANY_KERNEL2_DIR/dtb
