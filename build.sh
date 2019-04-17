@@ -25,6 +25,7 @@ nocol='\033[0m'
 
 echo "**** Setting Toolchain ****"
 export CROSS_COMPILE=$KERNEL_TOOLCHAIN
+export CROSS_COMPILE_ARM32=$ANDROIDDIR/kernel/prebuilts/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
 export ARCH=arm64
 export SUBARCH=arm64
 export KBUILD_COMPILER_STRING="Clang Version 9.0.2"
